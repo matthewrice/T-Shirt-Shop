@@ -1,0 +1,73 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.icon{
+  height: 40px;
+  margin-left: 10px;
+}
+
+.store-link,
+.cart-link{
+  margin-left: 20px;
+}
+
+.shirt-list{
+  padding: 0px;
+  list-style: none;
+}
+
+.shirt-list-item{
+  padding: 0;
+  margin-left: 10px;
+}
+//
+.shirt{
+  margin-top: 50px;
+}
+
+.shirt-image{
+  margin-bottom: 10px;
+}
+
+.shirt-names{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.shirt-description{
+  text-align: center;
+  padding-right: 0;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.add-button{
+  margin-left: 26px;
+}
+
+.deal{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.deal-expiration{
+  font-size: 18px;
+}
